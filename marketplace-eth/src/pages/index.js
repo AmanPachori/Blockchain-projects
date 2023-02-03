@@ -7,7 +7,7 @@ export default function Home() {
      <div>
       <div className="relative bg-white overflow-hidden">
         <div className="relative max-w-7xl mx-auto px-4">
-
+ 
           {/*------ NAVBAR STARTS ------*/}
           <Navbar/>
           {/*------ NAVBAR ENDS ------*/}
