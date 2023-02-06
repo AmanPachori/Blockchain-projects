@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 const navbar = () => {
   return (
     <>
@@ -23,14 +23,16 @@ const navbar = () => {
                     Blogs
                   </a>
                 </Link>
+              </div>
+              <div className="">
                 <Link href="#" legacyBehavior>
                   <a className="font-medium mr-8 text-gray-500 hover:text-gray-900">
                     Wishlist
                   </a>
                 </Link>
-              </div>
-              <div>
-                
+                <a className=" px-5 py-2 text-base rounded-md font-small text-white bg-indigo-600 hover:text-indigo-700">
+                  Connect
+                </a>
               </div>
             </div>
           </nav>
@@ -38,6 +40,6 @@ const navbar = () => {
       </section>
     </>
   );
-}
+};
 
-export default navbar
+export default navbar;
