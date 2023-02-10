@@ -1,8 +1,8 @@
 import React from "react";
-import {Footer,Navbar} from '@components/ui/common'
+import { Footer, Navbar } from "@components/ui/common";
 import { Web3Provider } from "@components/providers";
 
-const BaseLayout = ({children}) => {
+const BaseLayout = ({ children }) => {
   return (
     <Web3Provider>
       <div className="max-w-7xl mx-auto px-4">
