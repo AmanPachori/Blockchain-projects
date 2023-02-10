@@ -3,9 +3,7 @@ const { createContext, useContext } = require("react");
 
 const Web3Context = createContext(null);
 
-function Web3Provider(){
-
-
+export default function Web3Provider({children}){
   return(
     <Web3Context.Provider value={{test:"Hello"}}>
       {children}
